@@ -17,3 +17,11 @@ h1, h2, h3 {
 .bottom-container{
     background: hsl(192, 100%, 9%);
 }
+
+.box{
+    display: flex;
+}
+
+.box > div {
+    flex: 1;
+}
