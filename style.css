@@ -6,6 +6,14 @@ body{
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
 }
 
 img{
@@ -38,6 +46,7 @@ nav button{
 
 .flex{
     display: flex;
+    align-items: center;
 }
 
 .flex > div {
@@ -61,6 +70,21 @@ nav button{
     font-family: 'Open Sans';
     font-weight: 700;
 }
-.bottom-container{
+main{
+    margin: 70px;
+}
+
+.box{
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 60px 40px 60px 120px;
+    margin: 40px;
+}
+.box img{
+    width: 80%;
+}
+
+footer{
     background: hsl(192, 100%, 9%);
+    color: white;
 }
