@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-position: center top;
+    background-size: 120%;
+    background-repeat: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+header .container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container nav{
+    top: 0;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
